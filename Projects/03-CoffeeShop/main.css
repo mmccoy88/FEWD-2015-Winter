@@ -36,7 +36,7 @@
 			 url('../fonts/2D45C8_1_0.ttf') format('truetype');
 	}
 
-	/*
+	
 	@font-face {
 		font-family: 'SanchezCondensed-Italic';
 		src: url('../fonts/2D45C8_0_0.eot');
@@ -45,7 +45,7 @@
 			 url('../fonts/2D45C8_0_0.woff') format('woff'),
 			 url('../fonts/2D45C8_0_0.ttf') format('truetype');
 	}
-	*/
+	
 
 	/* Main */
 
@@ -207,7 +207,6 @@
 	}
 
 	.menu_last {
-		border-bottom: none;
 	}
 
 	.menu_price {
@@ -215,14 +214,32 @@
 		color: #DECC9C;
 	}
 
+
+ul {
+	border: 1px solid red;
+}
+li {
+	border: 1px solid red;
+}
+
+
+
+
 	/* Location */
 
 	.location h3 {
+		font-family: 'Sanchez Condensed', serif;
+		font-weight: normal;
+		font-size: 26px;
+		color: #222
 	}
 
 	/* Footer */
 
 	.footer {
+		font-family: 'Lato Regular', sans-serif;
+		font-size: 12px;
+		color: #fff;
 	}
 
 	.footer_copyright,
