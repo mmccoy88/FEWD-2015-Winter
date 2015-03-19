@@ -1,0 +1,32 @@
+{
+  "name": "Formstone",
+  "description": "Library of modular front end components.",
+  "author": {
+    "name": "Ben Plum",
+    "email": "mr@benplum.com",
+    "url": "http://www.benplum.com"
+  },
+  "license": "MIT",
+  "homepage": "http://formstone.it/",
+  "dependencies": {
+    "jquery": ">=1.11.1"
+  },
+  "main": [
+    "dist/**/*"
+  ],
+  "ignore": [
+    "demo/",
+    "docs/",
+    "site/"
+  ],
+  "_release": "55d34fc7e1",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "55d34fc7e184cd09c125b07819dc562f918eb7a4"
+  },
+  "_source": "git://github.com/Formstone/Formstone.git",
+  "_target": "*",
+  "_originalSource": "formstone",
+  "_direct": true
+}

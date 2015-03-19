@@ -1,0 +1,120 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300);
+
+h1,
+h2,
+h3,
+h4 { 
+	font-family: 'Roboto Condensed', sans-serif; font-weight: 300; 
+}
+
+h1 {
+	font-size: 70px;
+	color: #fff;
+}
+
+h2 {
+	color: orange;
+}
+
+h4 {
+	color: #e77e04;
+	font-size: 26px;
+}
+
+.intro_p {
+	color: #fff;
+	font-size: 20px;
+}
+
+p {
+	font-family: 'Roboto', sans-serif; font-weight: 400; 
+	line-height: 1.5;
+	color: #777;
+}
+
+/*SECTIONS*/
+
+.header {
+	background: url(images/icon_sprite.png) no-repeat;
+	margin: 0;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.intro {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	line-height: 1.2%;
+	background-color: #e77e04;
+}
+
+.intro_row {
+	position: relative;
+}
+
+.intro_row:before {
+background: url(/images/intro_phone.png);
+position: absolute;
+bottom: ;
+}
+
+.intro_background {
+	background-image: url(/images/intro_bg.jpg) no-repeat;
+}
+
+.features {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.lightbox_area {
+	background-color: #eee; 
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+/*GRID*/
+
+	@media screen and (max-width: 499px) {
+		/* target screens smaller then 500px */
+	}
+
+	@media screen and (min-width: 500px) {
+		/* target screens larger then 500px */
+	}
+
+	@media screen and (min-width: 500px) and (max-width: 739px) {
+		/* target screens from 500px to 740px */
+	}
+
+	@media screen and (max-width: 739px) {
+		/* target screens smaller then 740px */
+	}
+
+	@media screen and (min-width: 740px) {
+		/* target screens larger then 740px */
+	}
+
+	@media screen and (min-width: 740px) and (max-width: 979px) {
+		/* target screens from 740px to 980px */
+	}
+
+	@media screen and (max-width: 979px) {
+		/* target screens smaller then 980px */
+	}
+
+	@media screen and (min-width: 980px) {
+		/* target screens larger then 980px */
+	}
+
+	@media screen and (min-width: 980px) and (max-width: 1219px) {
+		/* target screens from 980px to 1220px */
+	}
+
+	@media screen and (max-width: 1219px) {
+		/* target screens smaller then 1220px */
+	}
+
+	@media screen and (min-width: 1220px) {
+		/* target screens larger then 1220px */
+	}
