@@ -34,18 +34,28 @@ p {
 
 /*SECTIONS*/
 
-.header {
-	background: url(images/icon_sprite.png) no-repeat;
+.logo:before{
+	background: url(images/icon_sprite.png) no-repeat top left;
+	content: "";
+	display: inline-block;
+	height: 60px;
+	width: 60px;
+	vertical-align: middle;
+	margin 0 20px 0 0;
+} 
+
+.logo {
 	margin: 0;
 	padding-top: 30px;
 	padding-bottom: 30px;
+	display: inline-block;
 }
 
 .intro {
 	padding-top: 30px;
 	padding-bottom: 30px;
 	line-height: 1.2%;
-	background-color: #e77e04;
+	background: #e77e04 url(images/intro_bg.jpg) no-repeat top center;
 }
 
 .intro_row {
@@ -72,6 +82,23 @@ bottom: ;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
+
+.footer {
+
+}
+
+.social_links {
+
+}
+
+.social_link {
+
+}
+
+.social_facebook {
+	
+}
+
 
 /*GRID*/
 
